@@ -90,7 +90,7 @@ window.onload = function () {
     //Load spritesheets
     // game.load.spritesheet('player', 'chalkers.png', 48, 62);
     game.load.spritesheet('player', 'BrutusPlayer.jpg.jpg', 57, 72);
-    game.load.spritesheet('ball', 'OSUlogoanimation.jpg', 40, 32);
+    game.load.spritesheet('ball', 'OSUlogo2animation.jpg', 38.75, 38);
     game.load.spritesheet('trophy', 'Trophy.jpg', 42, 54);
     game.load.spritesheet('flag', 'flag.jpg', 32, 32);
     game.load.spritesheet('star', 'star.png', 32, 32);
