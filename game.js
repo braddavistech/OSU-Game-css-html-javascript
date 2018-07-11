@@ -43,7 +43,7 @@ function addPlatforms() {
 function createItem(left, top, image) {
   var item = items.create(left, top, image);
   item.animations.add('spin');
-  item.animations.play('spin', -5, true);
+  item.animations.play('spin', 10, true);
 }
 
 // create the winning badge and add to screen
@@ -90,7 +90,7 @@ window.onload = function () {
     //Load spritesheets
     // game.load.spritesheet('player', 'chalkers.png', 48, 62);
     game.load.spritesheet('player', 'BrutusPlayer.jpg.jpg', 57, 72);
-    game.load.spritesheet('ball', 'OSUlogoanimation.jpg', 40, 38);
+    game.load.spritesheet('ball', 'OSUlogoanimation.jpg', 33.875, 32);
     game.load.spritesheet('trophy', 'Trophy.jpg', 42, 54);
     game.load.spritesheet('flag', 'flag.jpg', 32, 32);
     game.load.spritesheet('star', 'star.png', 32, 32);
