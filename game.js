@@ -43,7 +43,7 @@ function addPlatforms() {
 function createItem(left, top, image) {
   var item = items.create(left, top, image);
   item.animations.add('spin');
-  item.animations.play('spin', 2, true);
+  item.animations.play('spin', -5, true);
 }
 
 // create the winning badge and add to screen
